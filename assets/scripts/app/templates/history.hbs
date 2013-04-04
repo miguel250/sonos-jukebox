@@ -1,0 +1,11 @@
+{{view Jukebox.MenuView}}
+{{#each content in history}}
+{{content.date}}<br>
+{{#each content.track}}
+{{this.name}}
+{{this.artist}}
+{{this.year}}
+{{this.date_added}}<br/>
+<img src="{{unbound this.albumCover}}" alt="{{unbound this.album}}"><br>
+{{/each}}
+{{/each}}

@@ -1,0 +1,22 @@
+{
+  "name": "sonos-jukebox",
+  "version": "0.0.1",
+  "description": "sonos queueing app",
+  "main": "scripts/app/main.coffee",
+  "scripts": {
+    "test": "make test"
+  },
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Miguel Perez",
+      "email": "miguel@miguelpz.com"
+    }
+  ],
+  "dependencies": {
+    "uglify-js": "~2.2.5",
+    "coffee-script": "~1.6.2",
+    "requirejs": "~2.1.5",
+    "less": "~1.4.0-b2"
+  }
+}

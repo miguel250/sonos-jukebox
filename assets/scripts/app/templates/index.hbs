@@ -1,0 +1,8 @@
+{{view  Jukebox.MenuView}}
+{{#each  queue.track}}
+{{ unbound this.name}}
+{{ unbound this.artist}}
+{{ unbound this.year}}
+{{ unbound this.date_added}}<br>
+<img src="{{unbound this.albumCover}}" alt="{{unbound this.album}}"><br>
+{{/each}}

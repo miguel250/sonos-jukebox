@@ -1,0 +1,8 @@
+{{view Jukebox.MenuView}}
+{{#each songs.result}}
+{{this.name}} {{this.length}}
+{{this.album}}
+{{this.year}}
+<button type="button" class="btn btn-small btn-success"  {{action "submit" this}}>Queue Song</button>
+<br>
+{{/each}}

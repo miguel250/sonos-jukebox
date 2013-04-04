@@ -1,0 +1,8 @@
+<div class="nav-collapse collapse">
+    <ul class="nav">
+        <li id="home-nav">{{#linkTo index }}Home{{/linkTo}}</li>
+        <li id="history-nav">{{#linkTo history }}History{{/linkTo}}</li>
+    </ul>
+    {{view Ember.TextField id="search-input" class="input-block-level nav-pills pull-right" valueBinding="search" action="query" placeholder='search song'}}
+
+</div>
