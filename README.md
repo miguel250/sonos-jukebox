@@ -1,3 +1,6 @@
+###### Dev Setup
+Install [Virtualbox](https://www.virtualbox.org/wiki/Download) and  [Vagrant](http://downloads.vagrantup.com/) then run `vagrant up` inside the folder.
+
 ###### Data Structure
 * sadd track
     * url
